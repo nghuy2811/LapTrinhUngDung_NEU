@@ -1,0 +1,10 @@
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\bin\Debug\QuanLyTramThuPhi.exe.config
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\bin\Debug\QuanLyTramThuPhi.exe
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\bin\Debug\QuanLyTramThuPhi.pdb
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csprojAssemblyReference.cache
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.Properties.Resources.resources
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csproj.GenerateResource.cache
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csproj.CoreCompileInputs.cache
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.exe
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.pdb
+E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmXe.resources
