@@ -23,7 +23,7 @@ namespace QuanLyTramThuPhi
         {
             DataTable dta = new DataTable();
             dta = ketnoi.Lay_Dulieu("Select * From PhongBan");
-            dataGridPB.DataSource = dta;
+            dataGridNV.DataSource = dta;
             Hienthi_Dulieu();
         }
 
@@ -72,13 +72,13 @@ namespace QuanLyTramThuPhi
         private void Hienthi_Dulieu()
         {
             txtMaPB.DataBindings.Clear();
-            txtMaPB.DataBindings.Add("Text", dataGridPB.DataSource, "mapb");
+            txtMaPB.DataBindings.Add("Text", dataGridNV.DataSource, "mapb");
 
             txtTenPB.DataBindings.Clear();
-            txtTenPB.DataBindings.Add("Text", dataGridPB.DataSource, "tenpb");
+            txtTenPB.DataBindings.Add("Text", dataGridNV.DataSource, "tenpb");
 
             cboMaTram.DataBindings.Clear();
-            cboMaTram.DataBindings.Add("Text", dataGridPB.DataSource, "matram");
+            cboMaTram.DataBindings.Add("Text", dataGridNV.DataSource, "matram");
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

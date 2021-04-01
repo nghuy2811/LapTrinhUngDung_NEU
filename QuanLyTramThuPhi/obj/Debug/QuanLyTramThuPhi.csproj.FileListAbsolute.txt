@@ -21,3 +21,5 @@ E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.pdb
 E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmVe.resources
 E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmTramThuPhi.resources
 E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmPhongBan.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmNhanVien.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.XuLySaiPham.resources

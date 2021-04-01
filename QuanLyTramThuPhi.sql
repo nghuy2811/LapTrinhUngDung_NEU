@@ -46,9 +46,9 @@ Create table HauKiem(
 	matram char(15),
 	soxequatram int,
 	tongtien float,
-	mave char(10),
+	manv char(10),
 	foreign key (matram) references TramThuPhi(matram),
-	foreign key (mave) references Ve(mave));
+	foreign key (manv) references NhanVien(manv));
 
 Create table XuLySaiPham(
 	maloi char(10) primary key,
