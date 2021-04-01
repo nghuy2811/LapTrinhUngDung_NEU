@@ -57,7 +57,7 @@ namespace QuanLyTramThuPhi
         private void btnSua_Click(object sender, EventArgs e)
         {
             string sql2 = "Update Xe Set bienso ='" + txtBienSoXe.Text + "'";
-            sql2 = sql2 + ", tenloai ='" + txtLoaiXe.Text + "', trongtai = '" + txtTrongTai.Text;
+            sql2 = sql2 + ", tenloai ='" + txtLoaiXe.Text + "', trongtai = '" + txtTrongTai.Text + "' where bienso = '" + txtBienSoXe.Text + "'";
             ketnoi.Execute(sql2);
             Load_DuLieu_Xe();
         }

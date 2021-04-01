@@ -3,6 +3,8 @@ namespace QuanLyTramThuPhi
 {
     partial class FrmXe
     {
+        private const string V = "Xe";
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -191,7 +193,6 @@ namespace QuanLyTramThuPhi
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FrmXe";
-            this.Text = "Xe";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridXe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

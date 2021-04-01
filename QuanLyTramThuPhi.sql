@@ -17,7 +17,6 @@ Create table Xe(
 
 Create table Ve(
 	mave char(10) primary key,
-	tenve nvarchar(20),
 	loaive nvarchar(5),
 	ngayinve date,
 	giatien int,

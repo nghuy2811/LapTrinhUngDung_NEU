@@ -8,3 +8,16 @@ E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csproj.Core
 E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.exe
 E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.pdb
 E:\Study\LTUD\TramThuPhi\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmXe.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\bin\Debug\QuanLyTramThuPhi.exe.config
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\bin\Debug\QuanLyTramThuPhi.exe
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\bin\Debug\QuanLyTramThuPhi.pdb
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csprojAssemblyReference.cache
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmXe.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.Properties.Resources.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csproj.GenerateResource.cache
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csproj.CoreCompileInputs.cache
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.exe
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.pdb
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmVe.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmTramThuPhi.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmPhongBan.resources
