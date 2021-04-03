@@ -39,3 +39,5 @@ D:\NEU_Stuff\LapTrinhUngDung\TramThuPhi\LapTrinhUngDung_NEU\QuanLyTramThuPhi\obj
 D:\NEU_Stuff\LapTrinhUngDung\TramThuPhi\LapTrinhUngDung_NEU\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.csproj.GenerateResource.Cache
 D:\NEU_Stuff\LapTrinhUngDung\TramThuPhi\LapTrinhUngDung_NEU\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmHauKiem.resources
 D:\NEU_Stuff\LapTrinhUngDung\TramThuPhi\LapTrinhUngDung_NEU\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmMain.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmHauKiem.resources
+E:\Study\LTUD\TramThuPhiGit\QuanLyTramThuPhi\obj\Debug\QuanLyTramThuPhi.FrmMain.resources

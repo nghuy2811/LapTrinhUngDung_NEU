@@ -36,10 +36,20 @@ namespace QuanLyTramThuPhi
             cboBienSo.ValueMember = "bienso";
         }
 
+        public void Load_DuLieu_TramThuPhi()
+        {
+            DataTable dta = new DataTable();
+            dta = ketnoi.Lay_Dulieu("Select * From TramThuPhi");
+            cboMaTram.DataSource = dta;
+            cboMaTram.DisplayMember = "matram";
+            cboMaTram.ValueMember = "matram";
+        }
+
         private void FrmVe_Load(object sender, EventArgs e)
         {
             Load_DuLieu_Ve();
             Load_DuLieu_Xe();
+            Load_DuLieu_TramThuPhi();
             Hienthi_Dulieu();
         }
 
@@ -58,7 +68,7 @@ namespace QuanLyTramThuPhi
 
         private void btnChen_Click(object sender, EventArgs e)
         {
-            string sql1 = "Insert into Ve Values('" + txtMaVe.Text + "' , '" + txtLoaiVe.Text + "', '" + txtNgayIn.Text + "', '" + txtGiaVe.Text + "', '" + cboBienSo.Text + "')";
+            string sql1 = "Insert into Ve Values('" + txtMaVe.Text + "' , '" + txtLoaiVe.Text + "', '" + txtNgayIn.Text + "', '" + txtGiaVe.Text + "', '" + cboMaTram.Text + "', '" + cboBienSo.Text + "')";
             ketnoi.Execute(sql1);
             Load_DuLieu_Ve();
         }
@@ -66,7 +76,7 @@ namespace QuanLyTramThuPhi
         private void btnSua_Click(object sender, EventArgs e)
         {
             string sql2 = "Update Ve Set mave ='" + txtMaVe.Text + "'";
-            sql2 = sql2 + ", loaive ='" + txtLoaiVe.Text + "', ngayinve = '" + txtNgayIn.Text + "', giatien = '" + txtGiaVe.Text + "', bienso = '" + cboBienSo.Text + "' where mave = '" + txtMaVe.Text + "'";
+            sql2 = sql2 + ", loaive ='" + txtLoaiVe.Text + "', ngayinve = '" + txtNgayIn.Text + "', giatien = '" + txtGiaVe.Text + ", matram = '" + cboMaTram.Text + "', bienso = '" + cboBienSo.Text + "' where mave = '" + txtMaVe.Text + "'";
             ketnoi.Execute(sql2);
             Load_DuLieu_Ve();
         }
@@ -84,6 +94,9 @@ namespace QuanLyTramThuPhi
 
             txtGiaVe.DataBindings.Clear();
             txtGiaVe.DataBindings.Add("Text", dataGridVe.DataSource, "giatien");
+
+            cboMaTram.DataBindings.Clear();
+            cboMaTram.DataBindings.Add("Text", dataGridVe.DataSource, "matram");
 
             cboBienSo.DataBindings.Clear();
             cboBienSo.DataBindings.Add("Text", dataGridVe.DataSource, "bienso");

@@ -46,6 +46,8 @@ namespace QuanLyTramThuPhi
             this.label6 = new System.Windows.Forms.Label();
             this.txtGiaVe = new System.Windows.Forms.TextBox();
             this.cboBienSo = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cboMaTram = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridVe)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,9 +64,9 @@ namespace QuanLyTramThuPhi
             // dataGridVe
             // 
             this.dataGridVe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridVe.Location = new System.Drawing.Point(52, 269);
+            this.dataGridVe.Location = new System.Drawing.Point(12, 301);
             this.dataGridVe.Name = "dataGridVe";
-            this.dataGridVe.Size = new System.Drawing.Size(450, 165);
+            this.dataGridVe.Size = new System.Drawing.Size(595, 124);
             this.dataGridVe.TabIndex = 103;
             // 
             // btnThoat
@@ -125,7 +127,7 @@ namespace QuanLyTramThuPhi
             // txtNgayIn
             // 
             this.txtNgayIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtNgayIn.Location = new System.Drawing.Point(165, 163);
+            this.txtNgayIn.Location = new System.Drawing.Point(165, 216);
             this.txtNgayIn.Name = "txtNgayIn";
             this.txtNgayIn.Size = new System.Drawing.Size(337, 32);
             this.txtNgayIn.TabIndex = 97;
@@ -133,7 +135,7 @@ namespace QuanLyTramThuPhi
             // txtLoaiVe
             // 
             this.txtLoaiVe.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtLoaiVe.Location = new System.Drawing.Point(165, 86);
+            this.txtLoaiVe.Location = new System.Drawing.Point(165, 139);
             this.txtLoaiVe.Name = "txtLoaiVe";
             this.txtLoaiVe.Size = new System.Drawing.Size(337, 32);
             this.txtLoaiVe.TabIndex = 96;
@@ -141,7 +143,7 @@ namespace QuanLyTramThuPhi
             // txtMaVe
             // 
             this.txtMaVe.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtMaVe.Location = new System.Drawing.Point(165, 51);
+            this.txtMaVe.Location = new System.Drawing.Point(165, 104);
             this.txtMaVe.Name = "txtMaVe";
             this.txtMaVe.Size = new System.Drawing.Size(337, 32);
             this.txtMaVe.TabIndex = 95;
@@ -150,7 +152,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label3.Location = new System.Drawing.Point(47, 57);
+            this.label3.Location = new System.Drawing.Point(47, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 26);
             this.label3.TabIndex = 94;
@@ -160,7 +162,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label2.Location = new System.Drawing.Point(47, 92);
+            this.label2.Location = new System.Drawing.Point(47, 145);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 26);
             this.label2.TabIndex = 93;
@@ -170,7 +172,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label1.Location = new System.Drawing.Point(47, 131);
+            this.label1.Location = new System.Drawing.Point(47, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 26);
             this.label1.TabIndex = 92;
@@ -180,7 +182,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label5.Location = new System.Drawing.Point(47, 169);
+            this.label5.Location = new System.Drawing.Point(47, 222);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 26);
             this.label5.TabIndex = 105;
@@ -190,7 +192,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label6.Location = new System.Drawing.Point(47, 207);
+            this.label6.Location = new System.Drawing.Point(47, 260);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 26);
             this.label6.TabIndex = 106;
@@ -199,7 +201,7 @@ namespace QuanLyTramThuPhi
             // txtGiaVe
             // 
             this.txtGiaVe.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtGiaVe.Location = new System.Drawing.Point(165, 201);
+            this.txtGiaVe.Location = new System.Drawing.Point(165, 254);
             this.txtGiaVe.Name = "txtGiaVe";
             this.txtGiaVe.Size = new System.Drawing.Size(337, 32);
             this.txtGiaVe.TabIndex = 107;
@@ -208,16 +210,37 @@ namespace QuanLyTramThuPhi
             // 
             this.cboBienSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboBienSo.FormattingEnabled = true;
-            this.cboBienSo.Location = new System.Drawing.Point(165, 124);
+            this.cboBienSo.Location = new System.Drawing.Point(165, 177);
             this.cboBienSo.Name = "cboBienSo";
             this.cboBienSo.Size = new System.Drawing.Size(337, 33);
             this.cboBienSo.TabIndex = 108;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label7.Location = new System.Drawing.Point(47, 72);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(92, 26);
+            this.label7.TabIndex = 110;
+            this.label7.Text = "Mã trạm";
+            // 
+            // cboMaTram
+            // 
+            this.cboMaTram.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboMaTram.FormattingEnabled = true;
+            this.cboMaTram.Location = new System.Drawing.Point(165, 65);
+            this.cboMaTram.Name = "cboMaTram";
+            this.cboMaTram.Size = new System.Drawing.Size(337, 33);
+            this.cboMaTram.TabIndex = 111;
             // 
             // FrmVe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 450);
+            this.Controls.Add(this.cboMaTram);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.cboBienSo);
             this.Controls.Add(this.txtGiaVe);
             this.Controls.Add(this.label6);
@@ -263,5 +286,7 @@ namespace QuanLyTramThuPhi
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtGiaVe;
         private System.Windows.Forms.ComboBox cboBienSo;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cboMaTram;
     }
 }

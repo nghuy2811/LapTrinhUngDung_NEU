@@ -45,9 +45,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(424, 119);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(73, 252);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(121, 23);
+            this.button4.Size = new System.Drawing.Size(287, 54);
             this.button4.TabIndex = 10;
             this.button4.Text = "Tổng số tiền";
             this.button4.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(424, 74);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(73, 192);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 23);
+            this.button3.Size = new System.Drawing.Size(287, 54);
             this.button3.TabIndex = 9;
             this.button3.Text = "Tổng số xe";
             this.button3.UseVisualStyleBackColor = true;
@@ -65,19 +67,21 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(82, 74);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(73, 72);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 23);
+            this.button2.Size = new System.Drawing.Size(287, 54);
             this.button2.TabIndex = 8;
-            this.button2.Text = "Tìm kiếm theo trạm";
+            this.button2.Text = "Tìm kiếm trạm theo địa chỉ";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(82, 119);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(73, 132);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 23);
+            this.button1.Size = new System.Drawing.Size(287, 54);
             this.button1.TabIndex = 7;
             this.button1.Text = "Tìm kiếm theo ngày";
             this.button1.UseVisualStyleBackColor = true;
@@ -86,9 +90,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(82, 158);
+            this.dataGridView1.Location = new System.Drawing.Point(73, 312);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(463, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(463, 138);
             this.dataGridView1.TabIndex = 6;
             // 
             // contextMenuStrip1
@@ -106,16 +110,17 @@
             // 
             // txtNgay
             // 
-            this.txtNgay.Location = new System.Drawing.Point(250, 122);
+            this.txtNgay.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgay.Location = new System.Drawing.Point(366, 144);
             this.txtNgay.Name = "txtNgay";
-            this.txtNgay.Size = new System.Drawing.Size(154, 20);
+            this.txtNgay.Size = new System.Drawing.Size(214, 31);
             this.txtNgay.TabIndex = 11;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(209, 19);
+            this.label1.Location = new System.Drawing.Point(310, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(178, 37);
             this.label1.TabIndex = 12;
@@ -123,16 +128,17 @@
             // 
             // txtHK
             // 
-            this.txtHK.Location = new System.Drawing.Point(250, 76);
+            this.txtHK.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHK.Location = new System.Drawing.Point(366, 84);
             this.txtHK.Name = "txtHK";
-            this.txtHK.Size = new System.Drawing.Size(154, 20);
+            this.txtHK.Size = new System.Drawing.Size(214, 31);
             this.txtHK.TabIndex = 13;
             // 
             // FrmHauKiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 320);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.txtHK);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNgay);

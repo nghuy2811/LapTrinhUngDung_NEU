@@ -103,6 +103,7 @@ namespace QuanLyTramThuPhi
             this.btnThoat.TabIndex = 150;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnXoa
             // 
@@ -113,6 +114,7 @@ namespace QuanLyTramThuPhi
             this.btnXoa.TabIndex = 149;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -123,6 +125,7 @@ namespace QuanLyTramThuPhi
             this.btnSua.TabIndex = 148;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnChen
             // 
@@ -133,6 +136,7 @@ namespace QuanLyTramThuPhi
             this.btnChen.TabIndex = 147;
             this.btnChen.Text = "Chèn";
             this.btnChen.UseVisualStyleBackColor = true;
+            this.btnChen.Click += new System.EventHandler(this.btnChen_Click);
             // 
             // btnTao
             // 
@@ -143,6 +147,7 @@ namespace QuanLyTramThuPhi
             this.btnTao.TabIndex = 146;
             this.btnTao.Text = "Tạo mới";
             this.btnTao.UseVisualStyleBackColor = true;
+            this.btnTao.Click += new System.EventHandler(this.btnTao_Click);
             // 
             // txtTenLoi
             // 

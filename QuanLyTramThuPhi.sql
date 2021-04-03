@@ -15,18 +15,20 @@ Create table Xe(
 	tenloai nvarchar(20) not null,
 	trongtai float check (trongtai >= 0));
 
+Create table TramThuPhi(
+	matram char(15) primary key,
+	tentram nvarchar(20) not null,
+	diachi nvarchar(20));
+
 Create table Ve(
 	mave char(10) primary key,
 	loaive nvarchar(5),
 	ngayinve date,
 	giatien int,
+	matram char(15),
 	bienso char(10),
-	foreign key (bienso) references Xe(bienso));
-
-Create table TramThuPhi(
-	matram char(15) primary key,
-	tentram nvarchar(20) not null,
-	diachi nvarchar(20));
+	foreign key (bienso) references Xe(bienso),
+	foreign key(matram) references TramThuPhi(matram));
 
 Create table PhongBan(
 	mapb char(10) primary key,
