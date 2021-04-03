@@ -49,7 +49,7 @@ namespace QuanLyTramThuPhi
             // 
             this.cboMaTram.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboMaTram.FormattingEnabled = true;
-            this.cboMaTram.Location = new System.Drawing.Point(203, 140);
+            this.cboMaTram.Location = new System.Drawing.Point(212, 180);
             this.cboMaTram.Name = "cboMaTram";
             this.cboMaTram.Size = new System.Drawing.Size(337, 33);
             this.cboMaTram.TabIndex = 125;
@@ -58,7 +58,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(226, 9);
+            this.label4.Location = new System.Drawing.Point(179, 28);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(370, 37);
             this.label4.TabIndex = 121;
@@ -67,15 +67,15 @@ namespace QuanLyTramThuPhi
             // dataGridNV
             // 
             this.dataGridNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridNV.Location = new System.Drawing.Point(52, 273);
+            this.dataGridNV.Location = new System.Drawing.Point(61, 231);
             this.dataGridNV.Name = "dataGridNV";
-            this.dataGridNV.Size = new System.Drawing.Size(473, 165);
+            this.dataGridNV.Size = new System.Drawing.Size(488, 165);
             this.dataGridNV.TabIndex = 120;
             // 
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.btnThoat.Location = new System.Drawing.Point(633, 368);
+            this.btnThoat.Location = new System.Drawing.Point(633, 359);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(120, 70);
             this.btnThoat.TabIndex = 119;
@@ -130,7 +130,7 @@ namespace QuanLyTramThuPhi
             // txtTenPB
             // 
             this.txtTenPB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtTenPB.Location = new System.Drawing.Point(203, 90);
+            this.txtTenPB.Location = new System.Drawing.Point(212, 142);
             this.txtTenPB.Name = "txtTenPB";
             this.txtTenPB.Size = new System.Drawing.Size(337, 32);
             this.txtTenPB.TabIndex = 113;
@@ -138,7 +138,7 @@ namespace QuanLyTramThuPhi
             // txtMaPB
             // 
             this.txtMaPB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtMaPB.Location = new System.Drawing.Point(203, 55);
+            this.txtMaPB.Location = new System.Drawing.Point(212, 107);
             this.txtMaPB.Name = "txtMaPB";
             this.txtMaPB.Size = new System.Drawing.Size(337, 32);
             this.txtMaPB.TabIndex = 112;
@@ -147,7 +147,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label3.Location = new System.Drawing.Point(47, 61);
+            this.label3.Location = new System.Drawing.Point(56, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 26);
             this.label3.TabIndex = 111;
@@ -157,7 +157,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label2.Location = new System.Drawing.Point(47, 96);
+            this.label2.Location = new System.Drawing.Point(56, 148);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 26);
             this.label2.TabIndex = 110;
@@ -167,7 +167,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label1.Location = new System.Drawing.Point(47, 140);
+            this.label1.Location = new System.Drawing.Point(56, 187);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 26);
             this.label1.TabIndex = 109;

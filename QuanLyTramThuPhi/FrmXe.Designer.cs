@@ -148,7 +148,7 @@ namespace QuanLyTramThuPhi
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.btnThoat.Location = new System.Drawing.Point(626, 356);
+            this.btnThoat.Location = new System.Drawing.Point(626, 347);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(120, 70);
             this.btnThoat.TabIndex = 89;

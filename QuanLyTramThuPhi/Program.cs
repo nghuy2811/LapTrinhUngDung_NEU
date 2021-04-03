@@ -16,7 +16,7 @@ namespace QuanLyTramThuPhi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new XuLySaiPham());
+            Application.Run(new FrmMain());
         }
     }
 }

@@ -19,7 +19,7 @@ namespace QuanLyTramThuPhi
 
         public void KetNoi_Dulieu()
         {
-            string strKetNoi = @"Data Source=DESKTOP-AU1MPPG\SQLEXPRESS;Initial Catalog=QuanLyTramThuPhi;Integrated Security=True";
+            string strKetNoi = @"Data Source=DESKTOP-NLUEJAK\SQLEXPRESS;Initial Catalog=QuanLyTramThuPhi;Integrated Security=True";
             cnn = new SqlConnection(strKetNoi);
             cnn.Open();
         }
@@ -45,5 +45,6 @@ namespace QuanLyTramThuPhi
             cmd.ExecuteNonQuery();
             HuyKetNoi();
         }
+        public static string connectionString = @"Data Source=DESKTOP-NLUEJAK\SQLEXPRESS;Initial Catalog=QuanLyTramThuPhi;Integrated Security=True";
     }
 }

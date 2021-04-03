@@ -49,7 +49,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label5.Location = new System.Drawing.Point(47, 191);
+            this.label5.Location = new System.Drawing.Point(70, 191);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 26);
             this.label5.TabIndex = 122;
@@ -59,7 +59,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(175, 9);
+            this.label4.Location = new System.Drawing.Point(156, 29);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(452, 37);
             this.label4.TabIndex = 121;
@@ -131,7 +131,7 @@ namespace QuanLyTramThuPhi
             // txtDiaChi
             // 
             this.txtDiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtDiaChi.Location = new System.Drawing.Point(165, 185);
+            this.txtDiaChi.Location = new System.Drawing.Point(188, 185);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(337, 32);
             this.txtDiaChi.TabIndex = 114;
@@ -139,7 +139,7 @@ namespace QuanLyTramThuPhi
             // txtTenTram
             // 
             this.txtTenTram.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtTenTram.Location = new System.Drawing.Point(165, 128);
+            this.txtTenTram.Location = new System.Drawing.Point(188, 147);
             this.txtTenTram.Name = "txtTenTram";
             this.txtTenTram.Size = new System.Drawing.Size(337, 32);
             this.txtTenTram.TabIndex = 113;
@@ -147,7 +147,7 @@ namespace QuanLyTramThuPhi
             // txtMaTram
             // 
             this.txtMaTram.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtMaTram.Location = new System.Drawing.Point(165, 87);
+            this.txtMaTram.Location = new System.Drawing.Point(188, 109);
             this.txtMaTram.Name = "txtMaTram";
             this.txtMaTram.Size = new System.Drawing.Size(337, 32);
             this.txtMaTram.TabIndex = 112;
@@ -156,7 +156,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label3.Location = new System.Drawing.Point(47, 90);
+            this.label3.Location = new System.Drawing.Point(70, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 26);
             this.label3.TabIndex = 111;
@@ -166,7 +166,7 @@ namespace QuanLyTramThuPhi
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label2.Location = new System.Drawing.Point(47, 134);
+            this.label2.Location = new System.Drawing.Point(70, 156);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 26);
             this.label2.TabIndex = 110;
